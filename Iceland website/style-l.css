@@ -190,10 +190,45 @@ nav li a {
 	color:#000000;
 }
 
+nav li a:hover {
+    border-bottom-color: #ff1e97;
+}
+
+header {
+    overflow: hidden;
+}
 
 
+footer {
+    background-color: #000000;
+    padding: 5px;
+}
 
 
+footer p {
+    float: left;
+    margin-top: 10px;
+    color: #ffffff
+}
+
+#iconmenu {
+    float: right;
+}
+
+#iconmenu ul {
+    margin: 0;
+    padding: 3px 0 0;
+}
+
+#iconmenu li {
+    display: inline;
+    list-style-type: none;
+}
+
+#iconmenu img {
+    border: none;
+    width: 28px;
+}
 
 
 
