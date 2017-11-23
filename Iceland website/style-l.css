@@ -39,6 +39,20 @@ header{
 	margin-bottom:30px;
 	overflow:hidden;
 }
+.post {
+    float: left;
+    width: 216px;
+    margin-right: 32px;
+    margin-bottom: 25px;
+}
+
+.post:last-child {
+    margin-right: 0;
+}
+
+.post+.post+.post+.post {
+    margin-right: 0;
+}
 
 footer{
 	margin-bottom:30px;
@@ -72,8 +86,6 @@ footer{
 #site h1 {
 	margin:0;
 }
-
-
 
 
 
@@ -196,6 +208,111 @@ nav li a:hover {
 
 header {
     overflow: hidden;
+}
+
+#headerpost img {
+    float: left;
+    vertical-align: bottom;
+    width: 620px;
+}
+
+
+
+
+/* ### HEADERPOST LEAD###*/
+
+#headerpost #lead {
+    float: left;
+    width: 300px;
+    color: #ffffff;
+    margin-left: 25px;
+}
+
+#headerpost h2 {
+    margin: 20px 0;
+}
+
+#headerpost .more {
+    font-size: 18px;
+    font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
+    text-align: right;
+}
+
+#headerpost .more a {
+    color: #ffffff;
+    background-image: url(img/more.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: block;
+    padding: 10px 40px 10px 0;
+    text-decoration: none;
+}
+
+#headerpost {
+    background-color: #333333;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#888888));
+    background: -webkit-linear-gradient(#000000 0%, #888888 100%);
+    background: -moz-linear-gradient(#000000 0%, #888888 100%);
+    background: -o-linear-gradient(#000000 0%, #888888 100%);
+    background: -ms-linear-gradient(#000000 0%, #888888 100%);
+    background: linear-gradient(#000000 0%, #888888 100%);
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+/* ### POST 圖文 ###*/
+
+.post img {
+    width: 216px;
+    height: auto;
+    vertical-align: bottom;
+    border: none;
+}
+
+.post h2 {
+    font-size: 16px;
+    margin: 5px 0 0;
+}
+
+.post p {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.post .data {
+    float: left;
+    margin: 0;
+}
+
+.post .more_s {
+    float: right;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Macen Pro', Helvetica, Arial, sans-serif;
+    background-color: #666666;
+    background-image: url(img/more.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 94% 50%;
+    padding: 3px 25px 3px 5px;
+    margin: 0;
+}
+
+.post a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+}
+
+.post a:hover {
+    background-color: #cfffb2
 }
 
 
