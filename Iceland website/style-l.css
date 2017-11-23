@@ -13,7 +13,7 @@ body {
 
 /* L-size bigger than 980px; M-size 640~979px; S-size smaller than 639px */
 #container{
-	width:960x;
+	width:960px;
 	margin:auto;
 }
 
@@ -180,7 +180,7 @@ nav li{
 
 /*  color請參考CSS色碼對照表 https://www.toodoo.com/db/color.html */
 
-li a {
+nav li a {
 	display:block;
 	float:left;
 	margin-left:20px;
